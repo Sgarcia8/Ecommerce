@@ -15,7 +15,7 @@ public class Employee {
     private long id;
 
     @Column(name = "first_name")
-    private String firtName;
+    private String firstName;
 
     @Column(name = "last_name")
     private String lastName;
@@ -27,8 +27,8 @@ public class Employee {
 
     }
 
-    public Employee(String firtName, String lastName, String email) {
-        this.firtName = firtName;
+    public Employee(String firstName, String lastName, String email) {
+        this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
     }
@@ -40,10 +40,10 @@ public class Employee {
         this.id = id;
     }
     public String getFirtName() {
-        return firtName;
+        return firstName;
     }
-    public void setFirtName(String firtName) {
-        this.firtName = firtName;
+    public void setFirtName(String firstName) {
+        this.firstName = firstName;
     }
     public String getLastName() {
         return lastName;
