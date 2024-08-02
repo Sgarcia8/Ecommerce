@@ -39,10 +39,10 @@ public class Employee {
     public void setId(long id) {
         this.id = id;
     }
-    public String getFirtName() {
+    public String getFirstName() {
         return firstName;
     }
-    public void setFirtName(String firstName) {
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
     public String getLastName() {
